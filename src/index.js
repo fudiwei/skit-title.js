@@ -37,7 +37,7 @@
             }
 
             if (!!hackFrame) {
-                hackFrame.setAttribute('style', 'display: none!important; visibility: hidden!important;');
+                hackFrame.setAttribute('style', 'display: none!important; visibility: hidden!important; width: 0; height: 0; z-index: -9999;');
                 hackFrame.onload = callback;
                 hackFrame.onerror = callback;
                 hackFrame.src = valHackSrc;
