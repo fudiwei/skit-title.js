@@ -1,5 +1,5 @@
 {
-    "name": "@step/title",
+    "name": "@skit/title",
     "title": "title",
     "description": "A easy way to change the title of the document. Be compatible with the SPA in iOS.",
     "version": "1.0.0",
@@ -7,7 +7,7 @@
     "author": "Fu Diwei",
     "repository": {
         "type": "git",
-        "url": "https://github.com/fudiwei/step-title.git"
+        "url": "https://github.com/fudiwei/skit-title.git"
     },
     "license": "MIT",
     "scripts": {
