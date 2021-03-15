@@ -2,7 +2,7 @@
     "name": "@skit/title",
     "title": "title.js",
     "description": "A easy way to change the title of the document. Be compatible with the SPA in iOS.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/index.min.js",
     "author": "Fu Diwei",
     "repository": {
