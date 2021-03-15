@@ -25,6 +25,8 @@ module.exports = {
 
     devtool: 'source-map',
 
+    target: ['web', 'es5'],
+
     node: {
         __filename: true,
         __dirname: true
@@ -42,11 +44,14 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                use: [
-                    {
-                        loader: 'babel-loader'
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: [
+                            '@babel/preset-env'
+                        ]
                     }
-                ],
+                },
                 exclude: /node_modules/
             }
         ]
