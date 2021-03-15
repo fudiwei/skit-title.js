@@ -1,14 +1,10 @@
-export default STEP.Title.$$;
-
-export namespace STEP.Title {
-    export interface Title {}
-
-    export interface TitleConstructor<T extends Title = Title> {
+declare namespace SKIT.Title {
+    export interface TitleStatic {
         /**
          * 设置标题。
          * @param {String} title 标题。
          */
-        setTitle(title: string) : void;
+        setTitle(title: string): void;
 
         /**
          * 设置标题前缀。
@@ -29,6 +25,8 @@ export namespace STEP.Title {
          */
         withHackSource(src: string, flush?: boolean): void;
     }
-
-    export const $$: TitleConstructor;
 }
+
+declare const $$title: SKIT.Title.TitleStatic;
+
+export default $$title;
