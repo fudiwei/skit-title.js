@@ -3,7 +3,7 @@
 [![NPM Version](https://img.shields.io/npm/v/@skit/title.svg?sanitize=true)](https://www.npmjs.com/package/@skit/title)
 [![NPM Download](https://img.shields.io/npm/dm/@skit/title.svg?sanitize=true)](https://www.npmjs.com/package/@skit/title)
 [![Dependency Status](https://david-dm.org/fudiwei/skit-title.js.svg)](https://david-dm.org/fudiwei/skit-title.js)
-[![GitHub License](https://img.shields.io/github/license/fudiwei/skit-title.js)](https://github.com/fudiwei/skit-title.js/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/fudiwei/skit-title.js)](https://mit-license.org/)
 
 ---
 
